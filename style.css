@@ -128,7 +128,8 @@ ul {
 .services-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 90px;
+    row-gap: 50px;
+    column-gap: 85px;
 }
 
 .services-item {
@@ -172,6 +173,7 @@ ul {
     display: flex;
     align-items: center;
     gap: 130px;
+    justify-content: space-around;
 }
 
 .work-title {
@@ -186,10 +188,85 @@ ul {
     font-weight: 500;
     font-size: 20px;
     color: #3a2e2e;
+    width: 294px;
 }
 
 /* Четверта секція  */
 .specialists {
     padding-top: 32px;
+    padding-bottom: 65px;
+}
 
+.specialists-title {
+    font-weight: 600;
+    font-size: 48px;
+    color: #3a2e2e;
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 4px solid #6278b4;
+    width: 351px;
+    margin: 0 auto 40px;
+}
+
+.specialists-title span {
+    color: #6278b4;
+}
+
+.specialists-list {
+    display: flex;
+    gap: 32px;
+}
+
+.specialists-caption {
+    border-top: 4px solid #3a2e2e;
+    width: 224px;
+    font-weight: 600;
+    font-size: 32px;
+    color: #3a2e2e;
+    margin: 32px auto;
+    padding-top: 32px;
+
+}
+
+/* Підвал сайту */
+.footer {
+    background: #535353;
+    padding-top: 32px;
+    padding-bottom: 74px;
+}
+
+.footer-wrap {
+    border-bottom: 2px solid #6278b4;
+    width: 1120px;
+    padding-bottom: 27px;
+}
+
+.footer-contacts {
+    padding-top: 32px;
+}
+
+.footer-title {
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+}
+
+.footer-link {
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+}
+
+.footer-item {
+    display: flex;
+}
+
+.footer-img {
+    margin-right: 22px;
 }
