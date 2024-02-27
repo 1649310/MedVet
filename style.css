@@ -65,6 +65,10 @@ ul {
     gap: 57px;
 }
 
+.hero-wrap {
+    min-width: 562px;
+}
+
 .hero-span {
     color: #6278b4;
     font-weight: 600;
@@ -84,6 +88,7 @@ ul {
     line-height: 153%;
     color: #3a2e2e;
     padding-bottom: 32px;
+    width: 214px;
 }
 
 .hero-button {
@@ -110,11 +115,10 @@ ul {
     font-size: 48px;
     color: #3a2e2e;
     text-align: center;
-padding-bottom: 10px;
+    padding-bottom: 10px;
     border-bottom: 4px solid #6278b4;
-width: 351px;
-margin-bottom: 50px;
-
+    width: 351px;
+    margin: 0 auto 50px;
 }
 
 .services-title span {
@@ -124,12 +128,12 @@ margin-bottom: 50px;
 .services-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 90px ;
+    gap: 90px;
 }
 
 .services-item {
     display: flex;
-
+    flex: 1;
 }
 
 .services-img {
@@ -140,7 +144,6 @@ margin-bottom: 50px;
 
 .services-caption {
     font-weight: 400;
-  
     line-height: 153%;
     color: #3a2e2e;
     margin-bottom: 25px;
@@ -160,5 +163,33 @@ margin-bottom: 50px;
 
 /* Третя секція  */
 .work {
-    background-color: #fbfcff;
+    background-color: #ddf9ff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.work-container {
+    display: flex;
+    align-items: center;
+    gap: 130px;
+}
+
+.work-title {
+    padding-bottom: 28px;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 153%;
+    color: #6278b4;
+}
+
+.work-text {
+    font-weight: 500;
+    font-size: 20px;
+    color: #3a2e2e;
+}
+
+/* Четверта секція  */
+.specialists {
+    padding-top: 32px;
+
 }
